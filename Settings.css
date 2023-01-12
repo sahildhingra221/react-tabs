@@ -20,19 +20,11 @@
 .tab-content-item {
     width: 100%;
     position: absolute;
-    transform: translateX(100%);
     transition: all 0.2s ease-in-out;
+    transform: translateY(100%);
 }
 
 .tab-content-item.current {
     transform: unset;
     position: relative;
-}
-
-.tab-content-item.move-to-left {
-    transform: translateX(-100%);
-}
-
-.tab-content-item.move-to-right {
-    transform: translateX(100%);
 }
